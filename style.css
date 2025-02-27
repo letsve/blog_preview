@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(47, 88%, 63%);
+    
+
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.card {
+    background-color: white;
+    width: 355px;
+    height: fit-content;
+    position: relative;
+    /* top: 52%; */
+    left: 50%;
+    transform: translate(-50%, 10%);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 0px black;
+}
+
+.container img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border-radius: 10px;
+}
+.container img.ava {
+    width: 40px;
+}
+.container .texts {
+    margin-left: 15px;
+    padding: 0 20px;
+}
+.container h3 {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 6px;
+    width: fit-content;
+
+}
+.container .texts :nth-child(4) {
+    font-weight: 300;
+}
+
+
+.container .texts .profile img.ava {
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    top: 429px;
+}
+.container .texts .profile p {
+    position: relative;
+    left: 30px;
+}
